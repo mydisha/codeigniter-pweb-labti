@@ -48,6 +48,6 @@ $ chmod 777 uploads -R
 
 ![Tampilan Input Kategori](http://i.imgur.com/hBI1eln.png)
 
-### Export Database
+### Import Database
 
 Pada folder telah disediakan file dengan ekstensi .sql yang langsung dapat di import lewat phpmyadmin.
