@@ -44,7 +44,11 @@ $ chmod 777 uploads -R
 
 ![Tampilan Login](http://i.imgur.com/6WXey0E.png)
 
-2. Tampilan Input Kategori
+2. Tampilan Dashboard
+
+![Tampilan Dashboard](http://i.imgur.com/JJOdJFY.png)
+
+3. Tampilan Input Kategori
 
 ![Tampilan Input Kategori](http://i.imgur.com/hBI1eln.png)
 
