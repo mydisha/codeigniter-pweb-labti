@@ -1,10 +1,53 @@
-# CodeIgniter 2
-Open Source PHP Framework (originally from EllisLab)
+# Ujian Pemrograman Web LabTI
 
-For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
-(also available within the download package for offline use)
+Project menggunakan Framework Codeigniter versi 2
 
-**WARNING:** *CodeIgniter 2.x is no longer under development and only receives security patches until October 31st, 2015.
-Please update your installation to the latest CodeIgniter 3.x version available
-(upgrade instructions [here](http://www.codeigniter.com/userguide3/installation/upgrade_300.html)).*
-# codeigniter-pweb-labti
+### Konfigurasi
+
+Ubah base_url pada file config.php menjadi lokasi tempat menyimpan proyek.
+
+contoh : http://localhost/proyek
+
+```php
+$config['base_url'] = '';
+```
+
+Ubah konfigurasi database pada file database.php di isi sesuai dengan konfigurasi database pada laptop / komputer.
+
+```php
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
+$db['default']['dbdriver'] = 'mysqli';
+$db['default']['dbprefix'] = '';
+$db['default']['pconnect'] = TRUE;
+$db['default']['db_debug'] = TRUE;
+$db['default']['cache_on'] = FALSE;
+$db['default']['cachedir'] = '';
+$db['default']['char_set'] = 'utf8';
+$db['default']['dbcollat'] = 'utf8_general_ci';
+$db['default']['swap_pre'] = '';
+$db['default']['autoinit'] = TRUE;
+$db['default']['stricton'] = FALSE;
+```
+
+Ubah permission folder uploads jika menggunakan sistem operasi linux menjadi 777
+
+```sh
+$ chmod 777 uploads -R
+```
+
+### Screenshot
+
+1. Tampilan Login
+
+![Tampilan Login](http://i.imgur.com/6WXey0E.png)
+
+2. Tampilan Input Kategori
+
+![Tampilan Input Kategori](http://i.imgur.com/hBI1eln.png)
+
+### Export Database
+
+Pada folder telah disediakan file dengan ekstensi .sql yang langsung dapat di import lewat phpmyadmin.
